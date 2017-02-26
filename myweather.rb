@@ -31,13 +31,3 @@ weather.forecast.each do |forecast|
   date = date + 1
   mydate = date.strftime("%A")
 end
-
-# puts "Tomorrow the weather will be #{weather.tomorrow.icon}"
-# puts "Hello"
-# puts "The weather for the next 7 days will be:"
-# begin
-#   date = date +1
-#   counter =counter + 1
-#   puts "#{date}: #{weather.for(date)}"
-# end until counter == 5
-# # puts  #{date+1} will be #{weather.forecast.for(date)}"
